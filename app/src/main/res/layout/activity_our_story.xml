@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/header_gradient"
+        >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_38sdp">
+
+            <ImageView
+                android:id="@+id/icBack"
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_back"
+                android:padding="@dimen/_6sdp"
+                app:tint="@color/primary"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/our_story"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="@drawable/bg"
+       android:padding="@dimen/_16sdp"
+       >
+           <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+
+               <!-- Title -->
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/our_story_title"
+                   android:textSize="24sp"
+                   android:textStyle="bold"
+                   android:textColor="@color/white"
+                   android:layout_marginBottom="16dp" />
+
+               <!-- Introduction -->
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/introduction"
+                   android:textSize="18sp"
+                   android:textStyle="bold"
+                   android:textColor="@color/white"
+                   android:layout_marginBottom="8dp" />
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/our_story_introduction_msg"
+                   android:textSize="16sp"
+                   android:textColor="@color/white"
+                   android:layout_marginBottom="16dp" />
+
+               <!-- Struggles -->
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/the_struggle_with_late_payments"
+                   android:textSize="18sp"
+                   android:textStyle="bold"
+                   android:textColor="@color/white"
+                   android:layout_marginBottom="8dp" />
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/our_story_struggle_msg"
+                   android:textSize="16sp"
+                   android:textColor="@color/white"
+                   android:layout_marginBottom="16dp" />
+
+               <!-- Business Credit Cards -->
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/_1_business_credit_cards"
+                   android:textSize="16sp"
+                   android:textStyle="bold"
+                   android:textColor="@color/white"
+                   android:layout_marginBottom="8dp" />
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/our_story_buisness_credit_card_point1"
+                   android:textSize="16sp"
+                   android:textColor="@color/white"
+                   android:layout_marginBottom="4dp" />
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/our_story_buisness_credit_card_point2"
+                   android:textSize="16sp"
+                   android:textColor="@color/white"
+                   android:layout_marginBottom="4dp" />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/our_story_buisness_credit_card_point3"
+                   android:textSize="16sp"
+                   android:textColor="@color/white"
+                   android:layout_marginBottom="16dp" />
+
+               <!-- Personal Credit Cards -->
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/_2_personal_credit_cards"
+                   android:textSize="16sp"
+                   android:textStyle="bold"
+                   android:textColor="@color/white"
+                   android:layout_marginBottom="8dp" />
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/our_story_personal_credit_card_point1"
+                   android:textSize="16sp"
+                   android:textColor="@color/white"
+                   android:layout_marginBottom="4dp" />
+                <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/our_story_personal_credit_card_point2"
+                   android:textSize="16sp"
+                   android:textColor="@color/white"
+                   android:layout_marginBottom="4dp" />
+                <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/our_story_personal_credit_card_point3"
+                   android:textSize="16sp"
+                   android:textColor="@color/white"
+                   android:layout_marginBottom="16dp" />
+
+               <!-- The Impact -->
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/the_impact_of_late_payment_fees"
+                   android:textSize="18sp"
+                   android:textStyle="bold"
+                   android:textColor="@color/white"
+                   android:layout_marginBottom="8dp" />
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/our_story_imapct_late_fee_msg"
+                   android:textSize="16sp"
+                   android:textColor="@color/white"
+                   android:layout_marginBottom="16dp" />
+
+               <!-- Solution -->
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/the_solution_a_credit_card_reminder_app_cardly_reminder"
+                   android:textSize="18sp"
+                   android:textStyle="bold"
+                   android:textColor="@color/white"
+                   android:layout_marginBottom="8dp" />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/our_story_solution_msg"
+                   android:textSize="16sp"
+                   android:textColor="@color/white"
+                   android:layout_marginBottom="16dp" />
+
+               <!-- Features -->
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/_1_features_of_the_app"
+                   android:textSize="16sp"
+                   android:textStyle="bold"
+                   android:textColor="@color/white"
+                   android:layout_marginBottom="8dp" />
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/our_story_features_point1"
+                   android:textSize="16sp"
+                   android:textColor="@color/white"
+                   android:layout_marginBottom="4dp" />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/our_story_features_point2"
+                   android:textSize="16sp"
+                   android:textColor="@color/white"
+                   android:layout_marginBottom="4dp" />
+                <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/our_story_features_point3"
+                   android:textSize="16sp"
+                   android:textColor="@color/white"
+                   android:layout_marginBottom="4dp" />
+
+               <!-- More Features -->
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/our_story_features_point4"
+                   android:textSize="16sp"
+                   android:textColor="@color/white"
+                   android:layout_marginBottom="16dp" />
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/_2_user_centric_design"
+                   android:textSize="16sp"
+                   android:textStyle="bold"
+                   android:textColor="@color/white"
+                   android:layout_marginBottom="8dp" />
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/our_story_design_point1"
+                   android:textSize="16sp"
+                   android:textColor="@color/white"
+                   android:layout_marginBottom="4dp" />
+
+                <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/our_story_design_point2"
+                   android:textSize="16sp"
+                   android:textColor="@color/white"
+                   android:layout_marginBottom="16dp" />
+
+
+               <!-- Conclusion -->
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/conclusion"
+                   android:textSize="18sp"
+                   android:textStyle="bold"
+                   android:textColor="@color/white"
+                   android:layout_marginBottom="8dp" />
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/our_story_conclusion_msg"
+                   android:textSize="16sp"
+                   android:textColor="@color/white"
+                   android:layout_marginBottom="16dp" />
+
+               <!-- Author -->
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/our_story_auther"
+                   android:textSize="16sp"
+                   android:textColor="@color/white"
+                   android:layout_marginTop="16dp" />
+               <ImageView
+                   android:layout_width="@dimen/_70sdp"
+                   android:layout_height="@dimen/_36sdp"
+                   android:src="@drawable/logo"
+                   />
+           </LinearLayout>
+   </ScrollView>
+</LinearLayout>

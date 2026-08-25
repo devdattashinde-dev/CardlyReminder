@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    android:id="@+id/appBarMain"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menuHome"
+            android:icon="@drawable/ic_home"
+            android:title="@string/menu_home"
+            android:visible="false"
+            />
+        <item
+            android:id="@+id/menuPremium"
+            android:icon="@drawable/ic_premium"
+            android:title="@string/premium" />
+        <item
+            android:id="@+id/menuCalender"
+            android:icon="@drawable/ic_calender"
+            android:title="@string/calender" />
+        <item
+            android:id="@+id/menuIssuers"
+            android:icon="@drawable/ic_issuers"
+            android:title="@string/issuers" />
+
+        <item
+            android:id="@+id/menuCardNetwork"
+            android:icon="@drawable/ic_card_network"
+            android:title="@string/cards_on_networks" />
+
+        <item
+            android:id="@+id/menuInsights"
+            android:icon="@drawable/ic_insights"
+            android:title="@string/insights" />
+        <item
+            android:id="@+id/menuRateCardly"
+            android:icon="@drawable/ic_rate_cardly"
+            android:title="@string/rate_cardly" />
+
+        <item
+            android:id="@+id/menuDataBackup"
+            android:icon="@drawable/ic_data_backup"
+            android:title="@string/data_backup" />
+
+        <item
+            android:id="@+id/menuSettings"
+            android:icon="@drawable/ic_setting"
+            android:title="@string/action_settings" />
+    </group>
+</menu>

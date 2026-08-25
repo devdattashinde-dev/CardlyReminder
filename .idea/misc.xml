@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ASMSmaliIdeaPluginConfiguration">
+    <asm skipDebug="true" skipFrames="true" skipCode="false" expandFrames="false" />
+    <groovy codeStyle="LEGACY" />
+  </component>
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/devda/AndroidStudioProjects/kotlinDemo/DepriaDriver/app/src/main/res/drawable-hdpi/bg_gray_circle.xml" value="0.11348684210526316" />
+        <entry key="..\:/Users/devda/AndroidStudioProjects/kotlinDemo/DepriaDriver/app/src/main/res/drawable-hdpi/rounded_corner_bg.xml" value="0.1" />
+        <entry key="..\:/Users/devda/AndroidStudioProjects/kotlinDemo/DepriaDriver/app/src/main/res/drawable-hdpi/spinner_bg_gray.xml" value="0.1" />
+        <entry key="..\:/Users/devda/AndroidStudioProjects/kotlinDemo/DepriaDriver/app/src/main/res/drawable/ic_arrow_drop_down.xml" value="0.1" />
+        <entry key="..\:/Users/devda/AndroidStudioProjects/kotlinDemo/DepriaDriver/app/src/main/res/drawable/ic_attach_file.xml" value="0.134765625" />
+        <entry key="..\:/Users/devda/AndroidStudioProjects/kotlinDemo/DepriaDriver/app/src/main/res/drawable/ic_back.xml" value="0.1640625" />
+        <entry key="..\:/Users/devda/AndroidStudioProjects/kotlinDemo/DepriaDriver/app/src/main/res/drawable/ic_gift_box.xml" value="0.1" />
+        <entry key="..\:/Users/devda/AndroidStudioProjects/kotlinDemo/DepriaDriver/app/src/main/res/drawable/ic_home.xml" value="0.1" />
+        <entry key="..\:/Users/devda/AndroidStudioProjects/kotlinDemo/DepriaDriver/app/src/main/res/drawable/ic_shipment.xml" value="0.1" />
+        <entry key="..\:/Users/devda/AndroidStudioProjects/kotlinDemo/DepriaDriver/app/src/main/res/drawable/ic_shipment_diliverd.xml" value="0.108203125" />
+        <entry key="..\:/Users/devda/AndroidStudioProjects/kotlinDemo/DepriaDriver/app/src/main/res/drawable/ic_shipment_list.xml" value="0.1" />
+        <entry key="..\:/Users/devda/AndroidStudioProjects/kotlinDemo/DepriaDriver/app/src/main/res/drawable/rounded_corner_bg.xml" value="0.1" />
+        <entry key="..\:/Users/devda/AndroidStudioProjects/kotlinDemo/DepriaDriver/app/src/main/res/drawable/spinner_bg_gray.xml" value="0.1" />
+        <entry key="..\:/Users/devda/AndroidStudioProjects/kotlinDemo/DepriaDriver/app/src/main/res/font/fonts.xml" value="0.178125" />
+        <entry key="..\:/Users/devda/AndroidStudioProjects/kotlinDemo/DepriaDriver/app/src/main/res/layout/activity_fullscreen.xml" value="0.14947916666666666" />
+        <entry key="..\:/Users/devda/AndroidStudioProjects/kotlinDemo/DepriaDriver/app/src/main/res/layout/activity_login.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/devda/AndroidStudioProjects/kotlinDemo/DepriaDriver/app/src/main/res/layout/activity_main.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/devda/AndroidStudioProjects/kotlinDemo/DepriaDriver/app/src/main/res/layout/activity_splash.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/devda/AndroidStudioProjects/kotlinDemo/DepriaDriver/app/src/main/res/layout/app_bar_main.xml" value="0.12" />
+        <entry key="..\:/Users/devda/AndroidStudioProjects/kotlinDemo/DepriaDriver/app/src/main/res/layout/consolidate_action_dialog_layout.xml" value="0.12265625" />
+        <entry key="..\:/Users/devda/AndroidStudioProjects/kotlinDemo/DepriaDriver/app/src/main/res/layout/consolidate_shipment_details_even_row.xml" value="0.12265625" />
+        <entry key="..\:/Users/devda/AndroidStudioProjects/kotlinDemo/DepriaDriver/app/src/main/res/layout/consolidate_shipment_details_header.xml" value="0.4466666666666667" />
+        <entry key="..\:/Users/devda/AndroidStudioProjects/kotlinDemo/DepriaDriver/app/src/main/res/layout/consolidate_shipment_details_odd_row.xml" value="0.12265625" />
+        <entry key="..\:/Users/devda/AndroidStudioProjects/kotlinDemo/DepriaDriver/app/src/main/res/layout/consolidate_shipment_tracking.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/devda/AndroidStudioProjects/kotlinDemo/DepriaDriver/app/src/main/res/layout/content_main.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/devda/AndroidStudioProjects/kotlinDemo/DepriaDriver/app/src/main/res/layout/even_row_item.xml" value="0.10328947368421053" />
+        <entry key="..\:/Users/devda/AndroidStudioProjects/kotlinDemo/DepriaDriver/app/src/main/res/layout/fragment_consolidate_deliver.xml" value="0.1" />
+        <entry key="..\:/Users/devda/AndroidStudioProjects/kotlinDemo/DepriaDriver/app/src/main/res/layout/fragment_consolidate_details.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/devda/AndroidStudioProjects/kotlinDemo/DepriaDriver/app/src/main/res/layout/fragment_consolidate_list.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/devda/AndroidStudioProjects/kotlinDemo/DepriaDriver/app/src/main/res/layout/fragment_consolidate_tracking.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/devda/AndroidStudioProjects/kotlinDemo/DepriaDriver/app/src/main/res/layout/fragment_gallery.xml" value="0.1" />
+        <entry key="..\:/Users/devda/AndroidStudioProjects/kotlinDemo/DepriaDriver/app/src/main/res/layout/fragment_home.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/devda/AndroidStudioProjects/kotlinDemo/DepriaDriver/app/src/main/res/layout/fragment_login.xml" value="0.12265625" />
+        <entry key="..\:/Users/devda/AndroidStudioProjects/kotlinDemo/DepriaDriver/app/src/main/res/layout/fragment_notification.xml" value="0.2309941520467836" />
+        <entry key="..\:/Users/devda/AndroidStudioProjects/kotlinDemo/DepriaDriver/app/src/main/res/layout/fragment_profile.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/devda/AndroidStudioProjects/kotlinDemo/DepriaDriver/app/src/main/res/layout/fragment_shipment_deliver.xml" value="0.12" />
+        <entry key="..\:/Users/devda/AndroidStudioProjects/kotlinDemo/DepriaDriver/app/src/main/res/layout/fragment_shipment_details.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/devda/AndroidStudioProjects/kotlinDemo/DepriaDriver/app/src/main/res/layout/fragment_shipment_list.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/devda/AndroidStudioProjects/kotlinDemo/DepriaDriver/app/src/main/res/layout/fragment_shipment_tracking.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/devda/AndroidStudioProjects/kotlinDemo/DepriaDriver/app/src/main/res/layout/heder_item.xml" value="0.22" />
+        <entry key="..\:/Users/devda/AndroidStudioProjects/kotlinDemo/DepriaDriver/app/src/main/res/layout/history_tracking_table_even_row.xml" value="0.10859375" />
+        <entry key="..\:/Users/devda/AndroidStudioProjects/kotlinDemo/DepriaDriver/app/src/main/res/layout/history_tracking_table_header.xml" value="0.10859375" />
+        <entry key="..\:/Users/devda/AndroidStudioProjects/kotlinDemo/DepriaDriver/app/src/main/res/layout/history_tracking_table_odd_row.xml" value="0.10859375" />
+        <entry key="..\:/Users/devda/AndroidStudioProjects/kotlinDemo/DepriaDriver/app/src/main/res/layout/nav_header_main.xml" value="0.1" />
+        <entry key="..\:/Users/devda/AndroidStudioProjects/kotlinDemo/DepriaDriver/app/src/main/res/layout/notification_item.xml" value="0.1" />
+        <entry key="..\:/Users/devda/AndroidStudioProjects/kotlinDemo/DepriaDriver/app/src/main/res/layout/odd_row_item.xml" value="0.10328947368421053" />
+        <entry key="..\:/Users/devda/AndroidStudioProjects/kotlinDemo/DepriaDriver/app/src/main/res/layout/payment_table_even_row.xml" value="0.16354166666666667" />
+        <entry key="..\:/Users/devda/AndroidStudioProjects/kotlinDemo/DepriaDriver/app/src/main/res/layout/payment_table_header.xml" value="0.22" />
+        <entry key="..\:/Users/devda/AndroidStudioProjects/kotlinDemo/DepriaDriver/app/src/main/res/layout/payment_table_odd_row.xml" value="0.16354166666666667" />
+        <entry key="..\:/Users/devda/AndroidStudioProjects/kotlinDemo/DepriaDriver/app/src/main/res/layout/profile_address_item.xml" value="0.22" />
+        <entry key="..\:/Users/devda/AndroidStudioProjects/kotlinDemo/DepriaDriver/app/src/main/res/layout/progress_dialog.xml" value="0.12265625" />
+        <entry key="..\:/Users/devda/AndroidStudioProjects/kotlinDemo/DepriaDriver/app/src/main/res/layout/shipment_action_dialog_layout.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/devda/AndroidStudioProjects/kotlinDemo/DepriaDriver/app/src/main/res/layout/shipment_list_fragment.xml" value="0.1" />
+        <entry key="..\:/Users/devda/AndroidStudioProjects/kotlinDemo/DepriaDriver/app/src/main/res/layout/shipment_table_even_row.xml" value="0.22" />
+        <entry key="..\:/Users/devda/AndroidStudioProjects/kotlinDemo/DepriaDriver/app/src/main/res/layout/shipment_table_header.xml" value="0.1" />
+        <entry key="..\:/Users/devda/AndroidStudioProjects/kotlinDemo/DepriaDriver/app/src/main/res/layout/shipment_table_odd_row.xml" value="0.1" />
+        <entry key="..\:/Users/devda/AndroidStudioProjects/kotlinDemo/DepriaDriver/app/src/main/res/layout/user_Action_table_header.xml" value="0.1109375" />
+        <entry key="..\:/Users/devda/AndroidStudioProjects/kotlinDemo/DepriaDriver/app/src/main/res/layout/user_action_table_even_row.xml" value="0.1109375" />
+        <entry key="..\:/Users/devda/AndroidStudioProjects/kotlinDemo/DepriaDriver/app/src/main/res/layout/user_action_table_odd_row.xml" value="0.1109375" />
+        <entry key="..\:/Users/devda/AndroidStudioProjects/kotlinDemo/DepriaDriver/app/src/main/res/layout/user_id_item.xml" value="0.5" />
+        <entry key="..\:/Users/devda/AndroidStudioProjects/kotlinDemo/DepriaDriver/app/src/main/res/menu/activity_main_drawer.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/devda/AndroidStudioProjects/kotlinDemo/DepriaDriver/app/src/main/res/menu/main.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

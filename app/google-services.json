@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "816937368217",
+    "project_id": "cardly-reminder",
+    "storage_bucket": "cardly-reminder.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:816937368217:android:b7099d30c26a2864299608",
+        "android_client_info": {
+          "package_name": "com.cardleyreminder.apps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "816937368217-ki6gam8fbiisn3r3ff4bob2ae86jl5fv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cardleyreminder.apps",
+            "certificate_hash": "07b0fb2f6ca99baac67679bd5f41248773c41935"
+          }
+        },
+        {
+          "client_id": "816937368217-sac63ualgvkitvsrbo6gst06hu1d5ukl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBIhcPE0SJ3Axn4TOw6wNcYG1ip5Q9wMs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "816937368217-sac63ualgvkitvsrbo6gst06hu1d5ukl.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "816937368217-788q9m95lsub2fbljrj0lvlallss1tc3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.cardly.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

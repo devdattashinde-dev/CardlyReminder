@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:background="@drawable/rounde_corner_border"
+    android:orientation="vertical"
+    android:gravity="center">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/transaction_details"
+        android:textColor="@color/primary"
+        android:textSize="@dimen/_14sdp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Payment Failed"
+        android:textColor="@color/primary"
+        android:textAllCaps="true"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:textSize="@dimen/_16sdp"
+        />
+    <ImageView
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_100sdp"
+        android:src="@drawable/ic_failed"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:contentDescription="Failed Icon" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Payment Failed!"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginTop="@dimen/_16sdp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Something went wrong. Please try again."
+        android:textSize="14sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/btnRetry"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:text="Retry"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:background="@drawable/login_button_bg"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:backgroundTint="@color/primary"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/btnCancel"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:text="Cancel"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:background="@drawable/login_button_bg"
+        android:backgroundTint="@color/gray"
+        android:textColor="@color/white"/>
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_6sdp"
+    android:background="@drawable/rounde_corner_bg"
+    android:backgroundTint="@color/gray2"
+    android:padding="@dimen/_6sdp"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+    <ImageView
+        android:id="@+id/ivBankImage"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_70sdp"
+
+        android:src="@drawable/barclays_logo"
+        android:background="@drawable/rounde_corner_bg"
+        android:backgroundTint="#202020"
+        android:padding="@dimen/_8sdp"
+        />
+    <TextView
+        android:id="@+id/tvBankName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:text="Barclays"
+        />
+</LinearLayout>

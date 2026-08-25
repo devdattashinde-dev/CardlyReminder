@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/header_gradient"
+        >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_38sdp">
+
+            <ImageView
+                android:id="@+id/icBack"
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_back"
+                android:padding="@dimen/_6sdp"
+                app:tint="@color/primary"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/our_cardly_message"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="@drawable/bg"
+       android:padding="@dimen/_16sdp"
+       >
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+
+           <!-- Title -->
+           <TextView
+               android:id="@+id/tvTitle"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Welcome to our world of Cardly Reminders “Never Miss a Payment Again!”"
+               android:textSize="22sp"
+               android:textColor="@android:color/white"
+               android:fontFamily="sans-serif-medium"
+               android:gravity="center"
+               android:layout_marginBottom="16dp" />
+
+
+           <!-- Description -->
+           <TextView
+               android:id="@+id/tvDescription"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="We know that life can get busy, and keeping track of your credit card payments can sometimes slip your mind. That's why we're excited to introduce our friendly Credit Card Payment Reminder App, designed specifically for savvy credit card holders like you!"
+               android:textSize="16sp"
+               android:lineSpacingExtra="4dp"
+               android:textColor="@android:color/white"
+               android:layout_marginBottom="16dp" />
+
+           <!-- Subheading -->
+           <TextView
+               android:id="@+id/tvSubheading"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Stay on Top of Your Payments"
+               android:textSize="18sp"
+               android:textColor="@android:color/white"
+               android:fontFamily="sans-serif-medium"
+               android:layout_marginBottom="8dp" />
+
+           <!-- Body Text -->
+           <TextView
+               android:id="@+id/tvBody"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Our app ensures you never miss a payment deadline, helping you avoid late fees and maintain a healthy credit score. With customizable reminders and an intuitive interface, managing your credit card payments has never been easier."
+               android:textSize="16sp"
+               android:lineSpacingExtra="4dp"
+               android:textColor="@android:color/white"
+               android:layout_marginBottom="16dp" />
+
+           <!-- Why Download Our App? -->
+           <TextView
+               android:id="@+id/tvWhyDownload"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Why Download Our App?"
+               android:textSize="18sp"
+               android:textColor="@android:color/white"
+               android:fontFamily="sans-serif-medium"
+               android:layout_marginBottom="8dp" />
+
+           <!-- Bullet Points -->
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+               android:layout_marginBottom="16dp">
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="• Convenient Reminders: Get timely notifications before your payment due dates."
+                   android:textSize="16sp"
+                   android:lineSpacingExtra="4dp"
+                   android:textColor="@android:color/white"
+                   android:layout_marginBottom="8dp" />
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="• User-Friendly Design: Navigate effortlessly to stay organized."
+                   android:textSize="16sp"
+                   android:lineSpacingExtra="4dp"
+                   android:textColor="@android:color/white"
+                   android:layout_marginBottom="8dp" />
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="• Secure and Reliable: Your data security is our top priority, that’s why we don’t request any related personal credit card information."
+                   android:textSize="16sp"
+                   android:lineSpacingExtra="4dp"
+                   android:textColor="@android:color/white" />
+           </LinearLayout>
+
+           <!-- Closing Section -->
+           <TextView
+               android:id="@+id/tvClosing"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Join countless others who have already simplified their financial lives. Don't wait until it's too late—You have made a smart move to take control of your finances!"
+               android:textSize="16sp"
+               android:lineSpacingExtra="4dp"
+               android:textColor="@android:color/white"
+               android:layout_marginBottom="16dp" />
+
+           <!-- Thank You -->
+           <TextView
+               android:id="@+id/tvThankYou"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Thank you for being part of our Cardly Reminder family."
+               android:textSize="16sp"
+               android:textColor="@android:color/white"
+               android:layout_marginBottom="16dp" />
+
+           <!-- Footer -->
+           <TextView
+               android:id="@+id/tvFooter"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="If you have any questions or need assistance, feel free to reach out. We're here to help!"
+               android:textSize="16sp"
+               android:textColor="@android:color/white"
+               android:layout_marginBottom="16dp" />
+
+           <!-- Closing Signature -->
+           <TextView
+               android:id="@+id/tvSignature"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Best regards,\nThe Cardly Team."
+               android:textSize="16sp"
+               android:lineSpacingExtra="4dp"
+               android:textColor="@android:color/white" />
+           <ImageView
+               android:layout_width="@dimen/_70sdp"
+               android:layout_height="@dimen/_36sdp"
+               android:src="@drawable/logo"
+               />
+       </LinearLayout>
+   </ScrollView>
+</LinearLayout>

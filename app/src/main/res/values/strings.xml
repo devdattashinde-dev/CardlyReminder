@@ -1,0 +1,317 @@
+<resources>
+    <string name="app_name">Cardly Reminder</string>
+    <string name="facebook_app_id">692920626721106</string>
+
+    <string name="enter_your_email_address">Enter Your Email Address</string>
+    <string name="enter_your_password">Enter Your Password</string>
+    <string name="login">LOGIN</string>
+    <string name="forgot_password">Forgot Password ?</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="default_notification_channel_id">Channel ID</string>
+
+    <string name="menu_home">Home</string>
+    <string name="good_morning">Good Morning</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="shipment_list">Shipment List</string>
+    <string name="consolidated">Consolidated</string>
+    <string name="my_profile">My Profile</string>
+    <string name="logout">Logout</string>
+    <string name="shipments_summary">Shipments summary</string>
+    <string name="total_shipments">Total Shipments</string>
+    <string name="shipments_delivered">Shipments Delivered</string>
+    <string name="total_consolidated">Total Consolidated</string>
+    <string name="pickup_summary">Pickup summary</string>
+    <string name="assigned_pickup">Assigned pickup</string>
+    <string name="pickup_rejected">Pickup rejected</string>
+    <string name="pickup_cancelled">Pickup cancelled</string>
+    <string name="pickup_delivered">Pickup Delivered</string>
+    <string name="good_afternoon">Good Afternoon</string>
+    <string name="good_evening">Good Evening</string>
+    <string name="consolidated_list">Consolidated List</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="registration_date">Registration Date</string>
+    <string name="last_login">Last Login</string>
+    <string name="city">City</string>
+    <string name="address">Address</string>
+    <string name="country">Country</string>
+    <string name="zip_code">Zip code</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="documents_uploaded">Documents Uploaded</string>
+    <string name="notification">Notifications</string>
+    <string name="origin_office">Origin Office</string>
+    <string name="ago">Ago</string>
+    <string name="years">Years</string>
+    <string name="month">Month</string>
+    <string name="days">Days</string>
+    <string name="hours">Hours</string>
+    <string name="minutes">Minutes</string>
+    <string name="seconds">Seconds</string>
+    <string name="logout_message">Are you sure you want to logout?</string>
+    <string name="please_enter_email_id">Please enter email id</string>
+    <string name="please_enter_email_id_or_phone_number">Please enter your email address or phone number to login</string>
+    <string name="please_enter_password">Please enter password</string>
+    <string name="welcome_back_to">Welcome Back To</string>
+    <string name="enter_your_full_name">Enter Your Full Name</string>
+    <string name="enter_your_phone_number">Enter Your Phone Number</string>
+    <string name="back_to_login">Back To Login</string>
+    <string name="don_t_have_account_register">Don\'t have account, REGISTER</string>
+    <string name="please_enter_name">Please enter name</string>
+    <string name="please_enter_phone_number">Please enter phone number</string>
+    <string name="register">REGISTER</string>
+    <string name="premium">Premium</string>
+    <string name="calender">Calender</string>
+    <string name="issuers">Issuers</string>
+    <string name="card_networks">Card Networks</string>
+    <string name="insights">Insights</string>
+    <string name="rate_cardly">Rate Cardly</string>
+    <string name="data_backup">Data Backup</string>
+    <string name="addNewCreditCard">Add new credit card</string>
+    <string name="sound">Sound</string>
+    <string name="keyboard_clicks">Keyboard clicks</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
+        volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
+        dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad
+        litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse blandit eleifend
+        diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a,
+        ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.\n\n
+        Suspendisse interdum ornare ante. Aliquam nec cursus lorem. Morbi id magna felis. Vivamus
+        egestas, est a condimentum egestas, turpis nisl iaculis ipsum, in dictum tellus dolor sed
+        neque. Morbi tellus erat, dapibus ut sem a, iaculis tincidunt dui. Interdum et malesuada
+        fames ac ante ipsum primis in faucibus. Curabitur et eros porttitor, ultricies urna vitae,
+        molestie nibh. Phasellus at commodo eros, non aliquet metus. Sed maximus nisl nec dolor
+        bibendum, vel congue leo egestas.\n\n
+        Sed interdum tortor nibh, in sagittis risus mollis quis. Curabitur mi odio, condimentum sit
+        amet auctor at, mollis non turpis. Nullam pretium libero vestibulum, finibus orci vel,
+        molestie quam. Fusce blandit tincidunt nulla, quis sollicitudin libero facilisis et. Integer
+        interdum nunc ligula, et fermentum metus hendrerit id. Vestibulum lectus felis, dictum at
+        lacinia sit amet, tristique id quam. Cras eu consequat dui. Suspendisse sodales nunc ligula,
+        in lobortis sem porta sed. Integer id ultrices magna, in luctus elit. Sed a pellentesque
+        est.\n\n
+        Aenean nunc velit, lacinia sed dolor sed, ultrices viverra nulla. Etiam a venenatis nibh.
+        Morbi laoreet, tortor sed facilisis varius, nibh orci rhoncus nulla, id elementum leo dui
+        non lorem. Nam mollis ipsum quis auctor varius. Quisque elementum eu libero sed commodo. In
+        eros nisl, imperdiet vel imperdiet et, scelerisque a mauris. Pellentesque varius ex nunc,
+        quis imperdiet eros placerat ac. Duis finibus orci et est auctor tincidunt. Sed non viverra
+        ipsum. Nunc quis augue egestas, cursus lorem at, molestie sem. Morbi a consectetur ipsum, a
+        placerat diam. Etiam vulputate dignissim convallis. Integer faucibus mauris sit amet finibus
+        convallis.\n\n
+        Phasellus in aliquet mi. Pellentesque habitant morbi tristique senectus et netus et
+        malesuada fames ac turpis egestas. In volutpat arcu ut felis sagittis, in finibus massa
+        gravida. Pellentesque id tellus orci. Integer dictum, lorem sed efficitur ullamcorper,
+        libero justo consectetur ipsum, in mollis nisl ex sed nisl. Donec maximus ullamcorper
+        sodales. Praesent bibendum rhoncus tellus nec feugiat. In a ornare nulla. Donec rhoncus
+        libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
+        vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
+    </string>
+    <string name="card_flip_sound">Card flip sound</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="about_cardly">About Cardly</string>
+    <string name="credit_card_number_msg">Create any 4 Digit unique identifier number to display on this Card when saved. It can be the Card’s last 4 or any other numbers</string>
+    <string name="statement_closing_date">Statement closing date</string>
+    <string name="payment_due_date">Payment Due Date</string>
+    <string name="select_expires">Select Expires</string>
+    <string name="add_your_note_for_this_card">Add your note for this card</string>
+    <string name="add_a_new_credit_card">Add a new Credit Card</string>
+    <string name="done">Done</string>
+
+
+    <string name="selected_item">Selected item:</string>
+    <string name="categorise">Categorise</string>
+    <string name="personal_card">Personal Card</string>
+    <string name="msg_token_fmt">My Fcm TOken is</string>
+    <string name="default_web_client_id">816937368217-sac63ualgvkitvsrbo6gst06hu1d5ukl.apps.googleusercontent.com</string>
+    <string name="card_number">Card Number</string>
+    <string name="enter_card_number">Enter card number</string>
+    <string name="enter_valid_card_number">Enter valid card number</string>
+    <string name="select_issuer">Select issuer</string>
+    <string name="select_issuer_type">Select issuer type</string>
+    <string name="select_card_type">Select card type</string>
+    <string name="select_card">Select card</string>
+    <string name="select_statement_date">Select statement date</string>
+    <string name="select_due_date">Select due date</string>
+    <string name="select_card_network">Select card network</string>
+    <string name="select_card_expire_date">Select card expire date</string>
+    <string name="enter_comment">Enter comment</string>
+    <string name="select_card_color">Select card color</string>
+    <string name="no_card_added_yet">No card added yet</string>
+    <string name="sort_by">Sort By</string>
+    <string name="valid_thru">Valid Thru</string>
+    <string name="created_time">Created Time</string>
+    <string name="add_issuer_card_design">Add Issuer Card Design</string>
+    <string name="upload_design">Upload Design</string>
+    <string name="enter_name_of_issuing_bank">Enter name of issuing bank</string>
+    <string name="contact_number">Contact Number</string>
+    <string name="contact_details">Contact Details</string>
+    <string name="social_links">Social Links</string>
+    <string name="select_issuer_bank">Select Issuer Bank</string>
+    <string name="enterCardName">Enter card name</string>
+    <string name="bank_issuers">Bank Issuers</string>
+    <string name="credit_card_facts">Common Credit Card Facts</string>
+    <string name="credit_card_tips">Credit Card Tips</string>
+    <string name="faq">FAQ</string>
+    <string name="educational_video">Educational Video</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="select_your_credit_card">Select your credit card</string>
+    <string name="select_your_card_expiring_date">Select your card expiring date</string>
+    <string name="select_your_desire_color_for_the_back_of_your_card">Select your desired color for the back of your card</string>
+    <string name="your_closing_date_is_the_every_month_for_this_cards">Your statement closing date is the ## every month for ** cards</string>
+    <string name="your_due_date_is_the_every_month_for_this_cards">Your due date is the ## every month for ** cards</string>
+    <string name="availableDays">Available Days</string>
+    <string name="reminder_calender">Reminder Calender</string>
+    <string name="bank_issuers_categories">Bank Issuers Categories</string>
+    <string name="reach_out_us_message">Need assistance adding your bank or card into our app?? please reach out us in the settings section from the side menu</string>
+    <string name="please_reach_out">Please reach out!</string>
+    <string name="reach_out_to_us">Reach out to us</string>
+    <string name="our_cardly_message">Our Cardly Message</string>
+    <string name="we_are_on_social_media">We are on social media</string>
+    <string name="engage_with_us">Engage with Us from our FAQs</string>
+    <string name="explore_the_world_of">Explore the world of</string>
+    <string name="do_not_worry_we_will_help_you_recover_your_password">Do not worry! We will help you recover your password</string>
+    <string name="submit">Submit</string>
+    <string name="enter_phone_number_or_email_id">Enter Phone Number or Email Address</string>
+    <string name="please_enter_conf_password">Please enter confirm password</string>
+    <string name="your_pass_and_conf_password_not_match">Your password and confirm password not match</string>
+    <string name="register_with_email">Register with email</string>
+    <string name="cards_on_networks">Cards on Networks</string>
+    <string name="save">Save</string>
+    <string name="ads_and_marketing">Ads and Marketing</string>
+    <string name="help_us_grow">Help Us Grow</string>
+    <string name="show_your_love_by_giving_us_a_review_on_play_store">Show your love by giving us a review on Play Store</string>
+    <string name="continue_lbl">Continue</string>
+    <string name="overlap_dates">Overlap Dates</string>
+    <string name="our_story">Our Cardly Story</string>
+    <string name="our_story_title">Our Story: The Birth of the Cardly Reminder App</string>
+    <string name="introduction">Introduction…</string>
+    <string name="our_story_introduction_msg">As a small business owner and a consumer navigating the complexities of personal finances, I found myself in a constant battle with credit card due dates. The stress of keeping track of multiple payments for both my business and personal credit cards led to a revelation: I needed a solution to help manage my financial obligations more effectively. This realization was the driving force behind the creation of our Cardly Reminder App.</string>
+    <string name="the_struggle_with_late_payments">The Struggle with Late Payments…</string>
+    <string name="our_story_struggle_msg">Over the years, I’ve managed seven business credit cards and three personal credit cards. Each month, I faced the daunting task of remembering various due dates, payment amounts, and the associated consequences of missed payments. Despite my best efforts to stay organized, I often found myself overwhelmed by the sheer volume of information and keeping up, on top of my daily work  and business schedule.</string>
+    <string name="_1_business_credit_cards">1. Business Credit Cards:</string>
+    <string name="our_story_buisness_credit_card_point1">- Each card had different due dates and payment amounts, statement closing dates, and I was often preoccupied with daily operations, client meetings, and other pressing requirements like my full-time job.</string>
+    <string name="our_story_buisness_credit_card_point2">- Late payments resulted in hefty fees that not only impacted my cash flow but also adversely affected my business credit score.</string>
+    <string name="our_story_buisness_credit_card_point3">- The stress of potentially losing access to essential credit resources was a constant weight on my shoulders.</string>
+    <string name="_2_personal_credit_cards">2. Personal Credit Cards:</string>
+    <string name="our_story_personal_credit_card_point1">- Juggling personal finances alongside my business responsibilities was equally challenging.</string>
+    <string name="our_story_personal_credit_card_point2">- I would occasionally miss payments due to forgetfulness or simple oversight, leading to late fees that accumulated quickly.</string>
+    <string name="our_story_personal_credit_card_point3">- The frustration of seeing my hard-earned money wasted on penalties was disheartening and, at times, embarrassing to myself.</string>
+    <string name="the_impact_of_late_payment_fees">The Impact of Late Payment Fees:</string>
+    <string name="our_story_imapct_late_fee_msg">The financial repercussions of late payments were significant. I calculated that over the years, I lost hundreds of dollars to late fees across both my business and personal credit cards. Each missed payment felt like a setback, not just financially, but also emotionally. This was not just about the money; it was about the peace of mind I lacked while navigating my financial commitments and life journey.</string>
+    <string name="the_solution_a_credit_card_reminder_app_cardly_reminder">The Solution: A Credit Card Reminder App - Cardly Reminder!!</string>
+    <string name="our_story_solution_msg">After experiencing the burden of late payments firsthand, I decided to take action. I envisioned a user-friendly app that would serve as a reliable companion in managing credit card payments. My goal was to create a tool that could alleviate the anxiety of forgetting due dates and incurring unnecessary fees.</string>
+    <string name="_1_features_of_the_app">1. Features of the App:</string>
+    <string name="our_story_features_point1">- **Custom Reminders**: Users can receive personalized monthly alerts for each credit card, ensuring they receive timely notifications before payment due dates.</string>
+    <string name="our_story_features_point2">- **Payment Tracking**: The app allows for an easy tracking of payments made and upcoming amounts, providing a clear financial overview. (Coming Soon!)</string>
+    <string name="our_story_features_point3">- **Multiple Card Management**: Whether users have one card or several, the app is designed to manage multiple cards without never providing us none of your personal or credit card information seamlessly.</string>
+    <string name="our_story_features_point4">- **Educational Resources**: In-app tips and articles on managing credit effectively and understanding the implications of late payments.</string>
+    <string name="_2_user_centric_design">2. User-Centric Design:</string>
+    <string name="our_story_design_point1">- I prioritized simplicity and ease of use, ensuring that anyone, regardless of their tech-savviness, could benefit from the app.</string>
+    <string name="our_story_design_point2">- The interface is clean and intuitive, making it easy to navigate and provide user credit card education and manage financial responsibilities.</string>
+    <string name="conclusion">Conclusion</string>
+    <string name="our_story_conclusion_msg">The Cardly Reminder App was born out of necessity and personal experience. I wanted to create a solution that not only helps users avoid late fees but also empowers them to take control of their credit cards and financial health. My journey through the challenges of managing multiple credit cards taught me valuable lessons, and I am excited to share this tool with others facing similar struggles. Together, we can pave the way for smarter credit card use and financial management with peace of mind.</string>
+    <string name="our_story_auther">Al Turay\nManager/Founder</string>
+    <string name="clear_all">Clear All</string>
+    <string name="enter_retail_store_name">Enter Retail Store Name</string>
+    <string name="enter_retail_store_credit_card">Enter Retail Store Credit Card Name</string>
+    <string name="verify_email_by_otp">Verify Email By OTP</string>
+    <string name="verify">Verify</string>
+    <string name="your_cardly_reminder">Your Cardly Reminder</string>
+    <string name="enter_4digit_card_identifier">Please enter a 4-digit Card Identifier!</string>
+    <string name="enter_valid_4digit_card_identifier">Please enter valid 4-digit Card Identifier!</string>
+    <string name="credit_card_literacy">Credit Card Literacy</string>
+    <string name="partners_promotions">Partners Promotions</string>
+    <string name="enter_name_of_issuer_bank">Enter Name of Issuer Bank</string>
+    <string name="enter_name_of_credit_card">Enter Name of Credit Card</string>
+    <string name="change_password">Change Password</string>
+    <string name="please_enter_your_old_password">Please enter your old password</string>
+    <string name="subscription">Subscription</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_of_use">Terms of Use</string>
+    <string name="delete_account">Delete Account</string>
+
+    <string name="disclaimer_html">
+        <![CDATA[
+        <html>
+        <body>
+        <center>
+            <h2>YouTube Video Disclaimer</h2>
+        </center>
+        <br>
+        <p><b>Legal Disclaimer for use and watching of our YouTube Videos and Content Sharing</b></p>
+        <br>
+        <p>The content shared within this application includes links to videos hosted on YouTube and other social media sites. These videos are provided by third-party content creators and are subject to https://www.youtube.com/t/terms and their creators. By using this application, you acknowledge and agree to the following:</p>
+<br>
+        <p><b>Content Ownership:</b> All videos linked or embedded in this application are the property of their respective owners. We do not claim any ownership or rights to these videos. The opinions and views expressed in these videos are those of the individual creators and do not necessarily reflect the views of the Cardly Reminder App.</p>
+<br>
+        <p><b>No Endorsement:</b> The inclusion of any video does not imply endorsement or support of the content, creator, or associated entities by Cardly Reminder. We do not guarantee the accuracy, reliability, or completeness of any information contained in these videos.</p>
+<br>
+        <p><b>Compliance with YouTube\'s Terms:</b> All videos shared within this app are subject to YouTube\'s Terms of Service and Community Guidelines. Users are encouraged to review these terms at <a href="https://www.youtube.com/t/terms">YouTube Terms</a> or their respective content creators\' links.</p>
+<br>
+        <p><b>User Responsibility:</b> Users are solely responsible for their interactions with the content provided. Cardly Reminder is not liable for any damages or losses arising from the use of or reliance on any information contained in the videos.</p>
+<br>
+        <p><b>External Links:</b> This application may contain links to third-party websites or applications. Cardly Reminder is not responsible for the content, privacy policies, or practices of any third-party sites.</p>
+<br>
+        <p><b>Age Restrictions:</b> Some content on YouTube may not be suitable for all audiences. Parental guidance is advised.</p>
+<br>
+        <p><b>Changes to Disclaimer:</b> We reserve the right to update or modify this disclaimer at any time. Your continued use of the application following any changes constitutes your acceptance of the new disclaimer.</p>
+<br>
+        <p><b>Contact Information:</b> For any questions, please contact us within the Cardly Reminder app.</p>
+
+        <br><br>
+        <center>
+            <p>&copy; All Rights Reserved – Cardly Reminder</p>
+        </center>
+        </body>
+        </html>
+
+        ]]>
+    </string>
+    <string name="please_enter_valid_phone_number">Pleae enter valid phone number</string>
+    <string name="reach_out_to_us_via">Reach out to us via</string>
+    <string name="enter_your_old_password">Enter your Old Password</string>
+    <string name="enter_your_new_password">Enter your New Password</string>
+    <string name="enter_your_confirm_password">Enter your Confirm Password</string>
+    <string name="please_enter_new_password">Please enter new password</string>
+    <string name="transaction_details">Transaction Details</string>
+    <string-array name="Languages">
+        <item>String 1</item>
+        <item>String 2</item>
+        <item>String 3</item>
+        <item>String 4</item>
+        <item>String 5</item>
+        <item>String 6</item>
+
+    </string-array>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="payment_history">Payment History</string>
+    <string name="transaction_id">Transaction Id</string>
+    <string name="subscription_id">Subscription ID</string>
+    <string name="payment_time">Payment Time</string>
+    <string name="subscription_start_date">Subscription Start Date</string>
+    <string name="subscription_end_date">Subscription End Date</string>
+    <string name="amount">Amount</string>
+    <string name="plan">Plan</string>
+    <string name="subscription_renewal_date">Subscription Renewal Date</string>
+    <string name="register2">Register</string>
+    <string name="subscribe">Subscribe</string>
+    <string name="not_sure_enable_free_trail">Not sure? Enable FREE trial and cancel at anytime</string>
+    <string name="free_trial_enabled">Free Trial Enabled</string>
+</resources>

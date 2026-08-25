@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    android:background="@color/transparent_black"
+    >
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_16sdp"
+        android:background="@drawable/rounde_corner_bg"
+        android:backgroundTint="@color/white"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageView
+            android:id="@+id/ivClose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_close"
+            android:background="@drawable/bg_circle"
+            android:backgroundTint="@color/red_dark"
+            app:tint="@color/white"
+            android:layout_gravity="end"
+            android:layout_margin="@dimen/_8sdp"
+            />
+        <ImageView
+            android:layout_width="@dimen/_45sdp"
+            android:layout_height="@dimen/_45sdp"
+            android:src="@drawable/rounded_red_gradient"
+            android:background="@drawable/bg_circle"
+            android:backgroundTint="@color/headerBgColor"
+            android:padding="@dimen/_1sdp"
+            />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="@string/payment_due_date"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/_8sdp"
+
+            />
+        <ImageView
+            android:layout_width="@dimen/_45sdp"
+            android:layout_height="@dimen/_45sdp"
+            android:src="@drawable/rounded_green_gradient"
+            android:background="@drawable/bg_circle"
+            android:backgroundTint="@color/headerBgColor"
+            android:padding="@dimen/_1sdp"
+            android:layout_marginTop="@dimen/_16sdp"
+            />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="@string/availableDays"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/_8sdp"
+            />
+        <ImageView
+            android:layout_width="@dimen/_45sdp"
+            android:layout_height="@dimen/_45sdp"
+            android:src="@drawable/rounded_yellow_gradient"
+            android:background="@drawable/bg_circle"
+            android:backgroundTint="@color/headerBgColor"
+            android:padding="@dimen/_1sdp"
+            android:layout_marginTop="@dimen/_16sdp"
+            />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="@string/statement_closing_date"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_marginBottom="@dimen/_16sdp"
+            />
+
+        <ImageView
+            android:layout_width="@dimen/_45sdp"
+            android:layout_height="@dimen/_45sdp"
+            android:src="@drawable/rounded_orange_gradient"
+            android:background="@drawable/bg_circle"
+            android:backgroundTint="@color/headerBgColor"
+            android:padding="@dimen/_1sdp"
+            android:layout_marginTop="@dimen/_16sdp"
+            />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="@string/overlap_dates"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_marginBottom="@dimen/_16sdp"
+            />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

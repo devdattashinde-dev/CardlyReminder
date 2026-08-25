@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaryLight">#f4f02d</color>
+    <color name="primary">#f4f02d</color>
+    <color name="primaryDark">#f0d51e</color>
+    <color name="black">#FF000000</color>
+    <color name="black2">#202020</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="gray">#777777</color>
+    <color name="gray_light">#CFCFCF</color>
+    <color name="headerBgColor">#555555</color>
+    <color name="edittextBgColor">#2f2f31</color>
+    <color name="text_color_dark">#232844</color>
+    <color name="red">#f67979</color>
+    <color name="orange">#fb8c00</color>
+    <color name="green">#35bda5</color>
+    <color name="blue">#4dc1f7</color>
+    <color name="blue_dark">#2979FF</color>
+    <color name="gray2">#2f2f31</color>
+    <color name="transparent_black">#22000000</color>
+    <color name="green_dark">#76FF03</color>
+    <color name="red_dark">#FF1744</color>
+</resources>

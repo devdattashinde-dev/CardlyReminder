@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:name=".ui.base.CardlyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:networkSecurityConfig="@xml/network"
+        android:usesCleartextTraffic="true"
+        android:theme="@style/Theme.DepriaDriver" >
+        <meta-data android:name="com.google.firebase.messaging.default_notification_icon" android:resource="@mipmap/ic_launcher" />
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="@string/default_notification_channel_id"/>
+
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+        <activity
+            android:name=".ui.settings.SettingsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_settings"
+            android:theme="@style/Theme.DepriaDriver"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".ui.home.MainActivity"
+            android:exported="true"
+            android:label="@string/title_activity_main"
+            android:theme="@style/Theme.DepriaDriver"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.auth.AuthActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.calender.CalenderActivity"
+            android:exported="false"
+            android:label="@string/calender"
+            android:theme="@style/Theme.DepriaDriver"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".ui.addCard.AddCardActivity"
+            android:exported="false"
+            android:label="@string/add_a_new_credit_card"
+            android:theme="@style/Theme.DepriaDriver"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".ui.addCard.EditCardActivity"
+            android:exported="false"
+            android:label="@string/add_a_new_credit_card"
+            android:theme="@style/Theme.DepriaDriver"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".ui.issuer.IssuerCategoriesActivity"
+            android:exported="false"
+            android:label="@string/issuers"
+            android:theme="@style/Theme.DepriaDriver"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".ui.issuer.IssuerBankActivity"
+            android:exported="false"
+            android:label="@string/issuers"
+            android:theme="@style/Theme.DepriaDriver"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".ui.issuer.IssuerActivity"
+            android:exported="false"
+            android:label="@string/issuers"
+            android:theme="@style/Theme.DepriaDriver"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".ui.issuer.CreditCardListActivity"
+            android:exported="false"
+            android:label="@string/issuers"
+            android:theme="@style/Theme.DepriaDriver"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".ui.issuer.CardNetworkActivity"
+            android:exported="false"
+            android:label="@string/issuers"
+            android:theme="@style/Theme.DepriaDriver"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".ui.insights.PageDataActivity"
+            android:exported="false"
+            android:label="@string/insights"
+            android:theme="@style/Theme.DepriaDriver"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".ui.insights.FaqActivity"
+            android:exported="false"
+            android:label="@string/faq"
+            android:theme="@style/Theme.DepriaDriver"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".ui.insights.VideoActivity"
+            android:exported="false"
+            android:label="@string/ads_and_marketing"
+            android:theme="@style/Theme.DepriaDriver"
+            android:screenOrientation="portrait"
+            />
+
+        <activity
+            android:name=".ui.issuer.CardNetworkCreditCardListActivity"
+            android:exported="false"
+            android:label="@string/cards_on_networks"
+            android:theme="@style/Theme.DepriaDriver"
+            android:screenOrientation="portrait"
+            />
+
+        <activity
+            android:name=".ui.settings.ContactUsActivity"
+            android:exported="false"
+            android:label="@string/contact_us"
+            android:theme="@style/Theme.DepriaDriver"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".ui.settings.RateCardlyActivity"
+            android:exported="false"
+            android:label="@string/rate_cardly"
+            android:theme="@style/Theme.DepriaDriver"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".ui.notification.NotificationActivity"
+            android:exported="false"
+            android:label="@string/notification"
+            android:theme="@style/Theme.DepriaDriver"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".ui.settings.OurCardlyMessageActivity"
+            android:exported="false"
+            android:label="@string/our_cardly_message"
+            android:theme="@style/Theme.DepriaDriver"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".ui.settings.OurStoryActivity"
+            android:exported="false"
+            android:label="@string/our_story"
+            android:theme="@style/Theme.DepriaDriver"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".ui.profile.UpdateProfileActivity"
+            android:exported="false"
+            android:label="@string/update_profile"
+            android:theme="@style/Theme.DepriaDriver"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".ui.insights.CreditCardTipsActivity"
+            android:exported="false"
+            android:label="@string/credit_card_tips"
+            android:theme="@style/Theme.DepriaDriver"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".ui.issuer.CardsOnNetworkCreditCardListActivity"
+            android:exported="false"
+            android:label="@string/cards_on_networks"
+            android:theme="@style/Theme.DepriaDriver"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".ui.issuer.MenuCardOnNetworkActivity"
+            android:exported="false"
+            android:label="@string/cards_on_networks"
+            android:theme="@style/Theme.DepriaDriver"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".ui.profile.ChangePasswordActivity"
+            android:theme="@style/Theme.DepriaDriver"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".ui.subscription.SubscriptionActivity"
+            android:theme="@style/Theme.DepriaDriver"
+            android:exported="false"
+            android:screenOrientation="portrait"
+
+            />
+        <activity
+            android:name=".ui.subscription.PaymentHistoryActivity"
+            android:theme="@style/Theme.DepriaDriver"
+            android:exported="false"
+            android:screenOrientation="portrait"
+
+            />
+        <activity
+            android:name=".ui.subscription.TransactionDetailsActivity"
+            android:theme="@style/Theme.DepriaDriver"
+            android:exported="false"
+            android:screenOrientation="portrait"
+
+            />
+        <activity
+            android:name=".ui.subscription.SubscriptionDetailsActivity"
+            android:theme="@style/Theme.DepriaDriver"
+            android:exported="false"
+            android:screenOrientation="portrait"
+
+            />
+        <activity
+            android:name=".ui.insights.CreditCardFactsActivity"
+            android:exported="false"
+            android:label="@string/credit_card_facts"
+            android:theme="@style/Theme.DepriaDriver"
+            android:screenOrientation="portrait"
+            />
+
+        <activity
+            android:name=".ui.WebViewActivity"
+            android:theme="@style/Theme.DepriaDriver"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            />
+
+        <activity
+            android:name="com.canhub.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat"
+            android:screenOrientation="portrait"
+            />
+
+
+        <activity
+            android:name=".ui.SplashActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.DepriaDriver"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.cardleyreminder.apps.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <service
+            android:name=".util.MyFirebaseInstanceIDService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <!--<activity
+            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+            android:screenOrientation="portrait"
+            android:stateNotNeeded="true"
+            tools:replace="android:screenOrientation" />-->
+    </application>
+
+</manifest>
